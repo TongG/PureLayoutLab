@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8396C2F51B64F6D1009DB4E4 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8396C2F41B64F6D1009DB4E4 /* CustomView.m */; };
+		8396C2F81B6504B6009DB4E4 /* TweetCellViewSimulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8396C2F71B6504B6009DB4E4 /* TweetCellViewSimulator.m */; };
+		8396C2FB1B650533009DB4E4 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 8396C2FA1B650533009DB4E4 /* Line.m */; };
 		83AC2C911B6427E500E4E001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AC2C901B6427E500E4E001 /* AppDelegate.m */; };
 		83AC2C941B6427E500E4E001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AC2C931B6427E500E4E001 /* main.m */; };
 		83AC2C961B6427E500E4E001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AC2C951B6427E500E4E001 /* Assets.xcassets */; };
 		83AC2C991B6427E500E4E001 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83AC2C971B6427E500E4E001 /* MainMenu.xib */; };
 		83AC2CA41B6427E500E4E001 /* PureLayoutLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AC2CA31B6427E500E4E001 /* PureLayoutLabTests.m */; };
 		83AC2CAF1B6427E500E4E001 /* PureLayoutLabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AC2CAE1B6427E500E4E001 /* PureLayoutLabUITests.m */; };
+		83AC2CCA1B6428A000E4E001 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AC2CC21B6428A000E4E001 /* ALView+PureLayout.m */; };
+		83AC2CCB1B6428A000E4E001 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AC2CC41B6428A000E4E001 /* NSArray+PureLayout.m */; };
+		83AC2CCC1B6428A000E4E001 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AC2CC61B6428A000E4E001 /* NSLayoutConstraint+PureLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +38,25 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		83AC2CBE1B64280300E4E001 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8396C2F31B64F6D1009DB4E4 /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		8396C2F41B64F6D1009DB4E4 /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		8396C2F61B6504B6009DB4E4 /* TweetCellViewSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetCellViewSimulator.h; sourceTree = "<group>"; };
+		8396C2F71B6504B6009DB4E4 /* TweetCellViewSimulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetCellViewSimulator.m; sourceTree = "<group>"; };
+		8396C2F91B650533009DB4E4 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		8396C2FA1B650533009DB4E4 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
 		83AC2C8C1B6427E500E4E001 /* PureLayoutLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureLayoutLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AC2C8F1B6427E500E4E001 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83AC2C901B6427E500E4E001 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +70,15 @@
 		83AC2CAA1B6427E500E4E001 /* PureLayoutLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PureLayoutLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AC2CAE1B6427E500E4E001 /* PureLayoutLabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PureLayoutLabUITests.m; sourceTree = "<group>"; };
 		83AC2CB01B6427E500E4E001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83AC2CC11B6428A000E4E001 /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		83AC2CC21B6428A000E4E001 /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		83AC2CC31B6428A000E4E001 /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		83AC2CC41B6428A000E4E001 /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		83AC2CC51B6428A000E4E001 /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		83AC2CC61B6428A000E4E001 /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		83AC2CC71B6428A000E4E001 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		83AC2CC81B6428A000E4E001 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		83AC2CC91B6428A000E4E001 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +109,7 @@
 		83AC2C831B6427E500E4E001 = {
 			isa = PBXGroup;
 			children = (
+				83AC2CC01B6428A000E4E001 /* PureLayout */,
 				83AC2C8E1B6427E500E4E001 /* PureLayoutLab */,
 				83AC2CA21B6427E500E4E001 /* PureLayoutLabTests */,
 				83AC2CAD1B6427E500E4E001 /* PureLayoutLabUITests */,
@@ -98,6 +132,12 @@
 			children = (
 				83AC2C8F1B6427E500E4E001 /* AppDelegate.h */,
 				83AC2C901B6427E500E4E001 /* AppDelegate.m */,
+				8396C2F31B64F6D1009DB4E4 /* CustomView.h */,
+				8396C2F41B64F6D1009DB4E4 /* CustomView.m */,
+				8396C2F61B6504B6009DB4E4 /* TweetCellViewSimulator.h */,
+				8396C2F71B6504B6009DB4E4 /* TweetCellViewSimulator.m */,
+				8396C2F91B650533009DB4E4 /* Line.h */,
+				8396C2FA1B650533009DB4E4 /* Line.m */,
 				83AC2C951B6427E500E4E001 /* Assets.xcassets */,
 				83AC2C971B6427E500E4E001 /* MainMenu.xib */,
 				83AC2C9A1B6427E500E4E001 /* Info.plist */,
@@ -132,6 +172,23 @@
 			path = PureLayoutLabUITests;
 			sourceTree = "<group>";
 		};
+		83AC2CC01B6428A000E4E001 /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				83AC2CC11B6428A000E4E001 /* ALView+PureLayout.h */,
+				83AC2CC21B6428A000E4E001 /* ALView+PureLayout.m */,
+				83AC2CC31B6428A000E4E001 /* NSArray+PureLayout.h */,
+				83AC2CC41B6428A000E4E001 /* NSArray+PureLayout.m */,
+				83AC2CC51B6428A000E4E001 /* NSLayoutConstraint+PureLayout.h */,
+				83AC2CC61B6428A000E4E001 /* NSLayoutConstraint+PureLayout.m */,
+				83AC2CC71B6428A000E4E001 /* PureLayout+Internal.h */,
+				83AC2CC81B6428A000E4E001 /* PureLayout.h */,
+				83AC2CC91B6428A000E4E001 /* PureLayoutDefines.h */,
+			);
+			name = PureLayout;
+			path = ../../git/PureLayout/PureLayout/PureLayout;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,6 +199,7 @@
 				83AC2C881B6427E500E4E001 /* Sources */,
 				83AC2C891B6427E500E4E001 /* Frameworks */,
 				83AC2C8A1B6427E500E4E001 /* Resources */,
+				83AC2CBE1B64280300E4E001 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -261,8 +319,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AC2CCB1B6428A000E4E001 /* NSArray+PureLayout.m in Sources */,
+				8396C2FB1B650533009DB4E4 /* Line.m in Sources */,
+				83AC2CCC1B6428A000E4E001 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				83AC2C941B6427E500E4E001 /* main.m in Sources */,
+				83AC2CCA1B6428A000E4E001 /* ALView+PureLayout.m in Sources */,
+				8396C2F81B6504B6009DB4E4 /* TweetCellViewSimulator.m in Sources */,
 				83AC2C911B6427E500E4E001 /* AppDelegate.m in Sources */,
+				8396C2F51B64F6D1009DB4E4 /* CustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +547,7 @@
 				83AC2CB51B6427E500E4E001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83AC2CB61B6427E500E4E001 /* Build configuration list for PBXNativeTarget "PureLayoutLabTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +556,7 @@
 				83AC2CB81B6427E500E4E001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83AC2CB91B6427E500E4E001 /* Build configuration list for PBXNativeTarget "PureLayoutLabUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +565,7 @@
 				83AC2CBB1B6427E500E4E001 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
