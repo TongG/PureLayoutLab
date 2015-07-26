@@ -679,22 +679,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                         <subviews>
                             <customView fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UpS-gV-4a6" customClass="Line">
-                                <rect key="frame" x="20" y="9" width="7" height="317"/>
+                                <rect key="frame" x="20" y="29" width="7" height="317"/>
                             </customView>
-                            <scrollView fixedFrame="YES" borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ca1-IF-YIT">
-                                <rect key="frame" x="35" y="9" width="425" height="317"/>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PQw-yF-MS8">
+                                <rect key="frame" x="32" y="26" width="431" height="201"/>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" imageFrameStyle="grayBezel" id="m37-3W-WFN"/>
+                            </imageView>
+                            <scrollView fixedFrame="YES" borderType="line" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ca1-IF-YIT">
+                                <rect key="frame" x="35" y="232" width="425" height="114"/>
                                 <clipView key="contentView" ambiguous="YES" id="mgQ-ZA-1VF">
-                                    <rect key="frame" x="0.0" y="0.0" width="425" height="317"/>
+                                    <rect key="frame" x="1" y="1" width="423" height="112"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <textView ambiguous="YES" importsGraphics="NO" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" usesFontPanel="YES" verticallyResizable="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="cwc-Uo-xF1">
-                                            <rect key="frame" x="0.0" y="0.0" width="425" height="317"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="423" height="112"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                            <size key="minSize" width="425" height="317"/>
+                                            <size key="minSize" width="421" height="112"/>
                                             <size key="maxSize" width="463" height="10000000"/>
                                             <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
-                                            <size key="minSize" width="425" height="317"/>
+                                            <size key="minSize" width="421" height="112"/>
                                             <size key="maxSize" width="463" height="10000000"/>
                                         </textView>
                                     </subviews>
@@ -704,20 +708,21 @@
                                     <rect key="frame" x="-100" y="-100" width="87" height="18"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
-                                <scroller key="verticalScroller" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="let-02-JUp">
-                                    <rect key="frame" x="409" y="0.0" width="16" height="317"/>
+                                <scroller key="verticalScroller" verticalHuggingPriority="750" horizontal="NO" id="let-02-JUp">
+                                    <rect key="frame" x="408" y="1" width="16" height="112"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>
                         </subviews>
                         <connections>
+                            <outlet property="image" destination="PQw-yF-MS8" id="UJ5-3r-PsT"/>
                             <outlet property="line" destination="UpS-gV-4a6" id="frt-da-5Jc"/>
                             <outlet property="textScrollView" destination="Ca1-IF-YIT" id="Hip-AB-bCv"/>
                         </connections>
                     </customView>
                 </subviews>
             </view>
-            <point key="canvasLocation" x="410" y="488"/>
+            <point key="canvasLocation" x="617" y="451"/>
         </window>
     </objects>
 </document>

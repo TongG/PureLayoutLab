@@ -26,9 +26,25 @@
     [ self.line autoPinEdgesToSuperviewEdgesWithInsets: NSEdgeInsetsMake( 15.f, 15.f, 15.f, 0 ) excludingEdge: ALEdgeTrailing ];
 
     [ self.textScrollView configureForAutoLayout ];
-    [ self.textScrollView autoSetDimension: ALDimensionWidth toSize: 150.f relation: NSLayoutRelationGreaterThanOrEqual ];
-    [ self.textScrollView autoPinEdge: ALEdgeLeading toEdge: ALEdgeTrailing ofView: self.line withOffset: 6.f relation: NSLayoutRelationEqual ];
-    [ self.textScrollView autoPinEdgesToSuperviewEdgesWithInsets: NSEdgeInsetsMake( 15.f, 0.f, 15.f, 15.f ) excludingEdge: ALEdgeLeading ];
+    [ self.image configureForAutoLayout ];
+
+    [ NSView autoSetPriority: NSLayoutPriorityDefaultHigh
+              forConstraints: ( ALConstraintsBlock )^( void )
+            {
+            [ self.textScrollView autoSetDimension: ALDimensionWidth toSize: 150.f relation: NSLayoutRelationGreaterThanOrEqual ];
+            [ self.textScrollView autoSetDimension: ALDimensionHeight toSize: 100.f relation: NSLayoutRelationGreaterThanOrEqual ];
+            [ self.textScrollView autoPinEdge: ALEdgeLeading toEdge: ALEdgeTrailing ofView: self.line withOffset: 6.f relation: NSLayoutRelationEqual ];
+            [ self.textScrollView autoPinEdge: ALEdgeTrailing toEdge: ALEdgeTrailing ofView: self.textScrollView.superview withOffset: -15.f relation: NSLayoutRelationEqual ];
+            [ self.textScrollView autoPinEdge: ALEdgeTop toEdge: ALEdgeTop ofView: self.textScrollView.superview withOffset: 15.f relation: NSLayoutRelationEqual ];
+            [ self.textScrollView autoPinEdge: ALEdgeBottom toEdge: ALEdgeTop ofView: self.image withOffset: -15.f relation: NSLayoutRelationEqual ];
+            } ];
+
+    [ self.image autoSetDimension: ALDimensionHeight toSize: 100.f relation: NSLayoutRelationGreaterThanOrEqual ];
+    [ self.image autoMatchDimension: ALDimensionHeight toDimension: ALDimensionWidth ofView: self withMultiplier: 0.618f relation: NSLayoutRelationEqual ];
+    [ self.image autoPinEdge: ALEdgeLeading toEdge: ALEdgeTrailing ofView: self.line withOffset: 6.f relation: NSLayoutRelationEqual ];
+    [ self.image autoPinEdge: ALEdgeTrailing toEdge: ALEdgeTrailing ofView: self.image.superview withOffset: -15.f relation: NSLayoutRelationEqual ];
+    [ self.image autoPinEdge: ALEdgeTop toEdge: ALEdgeBottom ofView: self.textScrollView withOffset: 15.f relation: NSLayoutRelationEqual ];
+    [ self.image autoPinEdge: ALEdgeBottom toEdge: ALEdgeBottom ofView: self.image.superview withOffset: -15.f relation: NSLayoutRelationEqual ];
     }
 
 - (void)drawRect:(NSRect)dirtyRect {

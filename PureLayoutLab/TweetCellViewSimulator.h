@@ -14,5 +14,6 @@
 
 @property ( weak ) IBOutlet Line* line;
 @property ( strong ) IBOutlet NSScrollView* textScrollView;
+@property ( weak ) IBOutlet NSImageView* image;
 
 @end
