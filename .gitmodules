@@ -1,0 +1,3 @@
+[submodule "Vendor:PureLayout"]
+	path = Vendor:PureLayout
+	url = https://github.com/TongG/PureLayout.git

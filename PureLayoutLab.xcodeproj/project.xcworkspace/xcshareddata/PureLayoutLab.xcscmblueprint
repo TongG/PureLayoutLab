@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "894270C14107BEDCEE38B870D3924E78462EE6E2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "894270C14107BEDCEE38B870D3924E78462EE6E2" : 0,
+    "E6248D77DBBC6B1D6F6059D14C6A0B9ED1677585" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D16EB486-6EA0-4078-9B00-58AE4FBF958C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "894270C14107BEDCEE38B870D3924E78462EE6E2" : "PureLayoutLab\/",
+    "E6248D77DBBC6B1D6F6059D14C6A0B9ED1677585" : "PureLayout\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PureLayoutLab",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PureLayoutLab.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/TongG\/PureLayoutLab.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "894270C14107BEDCEE38B870D3924E78462EE6E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/smileyborg\/PureLayout.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E6248D77DBBC6B1D6F6059D14C6A0B9ED1677585"
+    }
+  ]
+}
