@@ -13,6 +13,7 @@
 		8396C3B21B6516C3009DB4E4 /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8396C3AA1B6516C3009DB4E4 /* ALView+PureLayout.m */; };
 		8396C3B31B6516C3009DB4E4 /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8396C3AC1B6516C3009DB4E4 /* NSArray+PureLayout.m */; };
 		8396C3B41B6516C3009DB4E4 /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8396C3AE1B6516C3009DB4E4 /* NSLayoutConstraint+PureLayout.m */; };
+		8396C3B71B654507009DB4E4 /* PureLayoutArrayExtensionLab.m in Sources */ = {isa = PBXBuildFile; fileRef = 8396C3B61B654507009DB4E4 /* PureLayoutArrayExtensionLab.m */; };
 		83AC2C911B6427E500E4E001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AC2C901B6427E500E4E001 /* AppDelegate.m */; };
 		83AC2C941B6427E500E4E001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83AC2C931B6427E500E4E001 /* main.m */; };
 		83AC2C961B6427E500E4E001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AC2C951B6427E500E4E001 /* Assets.xcassets */; };
@@ -66,6 +67,8 @@
 		8396C3AF1B6516C3009DB4E4 /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
 		8396C3B01B6516C3009DB4E4 /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
 		8396C3B11B6516C3009DB4E4 /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+		8396C3B51B654507009DB4E4 /* PureLayoutArrayExtensionLab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutArrayExtensionLab.h; sourceTree = "<group>"; };
+		8396C3B61B654507009DB4E4 /* PureLayoutArrayExtensionLab.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PureLayoutArrayExtensionLab.m; sourceTree = "<group>"; };
 		83AC2C8C1B6427E500E4E001 /* PureLayoutLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureLayoutLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AC2C8F1B6427E500E4E001 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		83AC2C901B6427E500E4E001 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 				8396C2F41B64F6D1009DB4E4 /* CustomView.m */,
 				8396C2F61B6504B6009DB4E4 /* TweetCellViewSimulator.h */,
 				8396C2F71B6504B6009DB4E4 /* TweetCellViewSimulator.m */,
+				8396C3B51B654507009DB4E4 /* PureLayoutArrayExtensionLab.h */,
+				8396C3B61B654507009DB4E4 /* PureLayoutArrayExtensionLab.m */,
 				8396C2F91B650533009DB4E4 /* Line.h */,
 				8396C2FA1B650533009DB4E4 /* Line.m */,
 				83AC2C951B6427E500E4E001 /* Assets.xcassets */,
@@ -322,6 +327,7 @@
 			files = (
 				8396C2FB1B650533009DB4E4 /* Line.m in Sources */,
 				8396C3B21B6516C3009DB4E4 /* ALView+PureLayout.m in Sources */,
+				8396C3B71B654507009DB4E4 /* PureLayoutArrayExtensionLab.m in Sources */,
 				83AC2C941B6427E500E4E001 /* main.m in Sources */,
 				8396C3B41B6516C3009DB4E4 /* NSLayoutConstraint+PureLayout.m in Sources */,
 				8396C3B31B6516C3009DB4E4 /* NSArray+PureLayout.m in Sources */,
